@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box
+}
+
+html {
+	font-family:  sans-serif;
+	color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 10px
+
+}
+
+header h1{
+    text-align: center;
+    background-color:indigo;
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: lavender;   
+}
+
+ h2  {
+	font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    line-height: 2rem;
+}
+
+
+div  {
+    background-color: thistle;
+    width: 50%;
+    height: 0 auto;
+    border: 1px solid indigo;
+    border-radius: 20%;
+    list-style-position: inside;   
+    margin: 5rem;
+    padding: 2rem;
+      
+}  
+ nav{
+     overflow: hidden;
+     
+ }
+nav a{
+    float: left;
+    text-align: center;
+    display: table-row;
+    font-size: 2rem;
+    margin-left: 8rem;
+   }
+
+a {  
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: indigo;
+    
+}
+
+ a:hover { 
+    background-color: black;
+    color: white;
+}
+      
+li, dt, dd{
+	
+	font-family: sans-serif;
+	line-height: 2;
+    text-align: center;
+    font-size: 1.5rem;
+}
+   
+body {
+	background: url('../images/pattern.png') center top repeat #EEEEEE;
+}
+
+footer {
+	background-color: mediumpurple;
+    color: #000000;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem; 
+   
+}
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+

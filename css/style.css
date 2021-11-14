@@ -1,0 +1,124 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+header h2 {
+	text-align: center;
+	color:white;
+	background-color:indigo;
+	padding: 1.5rem;
+	font-size: 20px;
+	
+  }
+ 
+header {
+	padding: 20px;
+	
+  }
+
+body {
+	background-color: lavender;
+}
+
+h1,h2, p, li{
+	font-family:  Helvetica, sans-serif;
+	color: black;
+	font-size: 1.6rem;
+}
+
+.navegacao li {
+	
+	display: block;
+	padding: 1.5rem;
+	line-height: 1.2rem;
+	background-color: mediumpurple;
+	
+}
+
+.navegacao a {
+	color: black;
+	display: block;
+	text-decoration: none;
+	
+}
+a:hover {
+	background-color: white;
+}
+
+form {
+	background-color: thistle;
+	padding: 10px;
+}
+
+form div {
+
+	border-bottom: 1px solid black;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.8rem; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+nav {
+	float: left;
+	width: 20%;
+	padding: 15px;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer p{
+  background-color:indigo;
+  padding: 10px;
+  text-align: center;  
+  color: white;
+
+}
+@media (min-width: 768px) {
+    body{
+		background-color: lightpink;
+	}
+}
+	
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+

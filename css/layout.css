@@ -1,0 +1,131 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; 
+
+}
+header h2{
+  text-align: center;
+  color:white;
+  background-color:indigo;
+  padding: 1.5rem;
+  
+}
+
+ h2{
+  font-size: 2rem;
+}
+
+header {
+  padding: 20px;
+ 
+}
+body{
+  background-color: lavender;
+}
+
+nav {
+  overflow: hidden;
+  background-color:mediumpurple;
+  
+}
+
+nav a { float:left;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  display: table-row;
+  font-size: 2rem;
+  margin-right: 50px;   
+}
+
+a {
+  color:indigo;
+  font-size:1.5rem;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: black;
+  color: white;
+}
+
+img{
+  border: 1px solid black;
+  border-radius: 50%;
+  float: left;
+  width: 50%;
+  filter: drop-shadow(6px 6px 12px purple);
+}
+
+p{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+
+}
+
+.column{
+  float:left;
+  padding: 10px;
+}
+
+.column.side{
+  width: 25%;
+  padding: 2rem;
+  line-height: 2rem;
+}
+
+.column.middle{
+  width:50%;
+  padding: 2rem;
+  line-height: 3.5rem;
+ 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 10%;
+} 
+
+footer{
+  background-color: indigo;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  
+}
+ @media (min-width: 769px) {
+   body{
+     background-color: thistle;
+     color: black;
+   }
+ }
+ @media (max-width: 768px) {
+   .column.middle{
+     background-color: lightgray;
+     color: black;
+
+   }
+ }
+ @media (max-width: 425px) {
+   .column.side {
+     background-color:thistle;
+     color: black;
+   }
+   
+  }
+    
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle{
+      width: 100%;
+    }
+  }
